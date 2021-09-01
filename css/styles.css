@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat";
+    /* box-sizing: border-box; */
+}
+
+/* social media */
+.icon-bar{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.icon-bar a{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    color: #fff;
+    font-size: 1.1rem;
+}
+.icon-bar a:hover {
+    background-color: #000;
+  }
+.facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .instagram {
+    background: #bc2a8d  ;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .whatsapp {
+    background: #25D366;
+    color: white;
+  }
+#title{
+    
+ /* background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% ); */
+ background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    
+    
+    /* position: absolute; */
+  
+    
+}
+.container-fluid{
+    padding: 3% 10%;
+}
+/* navbar */
+.navbar{
+    padding:0 0 4.5rem;
+    /* background-attachment: fixed; */
+    transition: all 0.3s ease;
+}
+
+nav a{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    
+}
+nav a:hover{
+    color: #EB3349;
+    
+}
+
+.navbar li{
+    padding: 0 20px;
+}
+
+.navbar-brand{
+    font-size: 2.3rem;
+    font-family: ubuntu;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+h1{
+    font-size: 3.1rem;
+    color: #fff;
+    text-shadow: 0.2px 0.2px black;
+    font-family: Ubuntu;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+.row{
+    padding: 5% 0;
+}
+
+.download-btn, button{
+    padding: 12px 25px;
+    margin-top:30px ;
+    text-transform: uppercase;
+}
+.btn-right{
+    margin-left: 20px;
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+    border: none;
+    color: #fff;
+    
+}
+
+/* 
+
+
+*/
+.icon-space{
+    margin-right: 10px;
+}
+.iphone-image{
+
+    width: 60%;
+    /* padding-left:100px; */
+    /* text-align: center; */
+    /* z-index: -1; */
+    /* transform: rotate(25deg); */
+    /* position: absolute; */
+}
+
+/* .iphone-image{
+    position: relative; z-index: 1;  
+} */
+
+
+/* feature */
+/* #features{
+    position: relative; 
+    z-index: 2; 
+}  */
+
+#features{
+    /* margin-top: -350px; */
+    text-align: center;
+    padding: 40px 50px;
+    background-color: #fff;
+  
+}
+#features h3{
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    
+}
+
+#features p{
+    color: #333;
+}
+#features-icon1 ,#features-icon2,#features-icon3{
+    color:rgba(24,138,141,1)  ;
+    transition: all 0.3s ease;
+}
+#features-icon1:hover ,#features-icon2:hover,#features-icon3:hover{
+    color:rgb(10, 111, 114)  ;
+    cursor: pointer;
+    
+}
+
+/* testimonial */
+#testimonials{
+    transition: all 0.3s ease;
+/* z-index: 2; */
+ background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+}
+#testimonials em{
+    color: #fff;
+}
+
+/* press */
+#press{
+    padding: 5% 10%;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+}
+
+
+/* testimonial */
+.carousel-item{
+    padding:7% 20%;
+    text-align: center;
+}
+.testimonial-text{
+    font-size: 2.2rem;
+    color: #fff;
+    font-family: ubuntu;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.carousel-item em{
+    color: #333;
+}
+.carousel-item img{
+    width: 15%;
+    padding:10px;
+    border-radius: 50%;
+    
+}
+
+    /* image galary */
+#galary h2  {
+    padding-top: 30px;
+    text-align: center;
+    color: #fff ;
+    font-size: 2.5rem;
+    font-family:"ubuntu" ,Verdana, Geneva, Tahoma, sans-serif;
+}
+#galary p{
+    font-family: ubuntu;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+#galary{
+    background: linear-gradient(to left ,rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('/images/galaryBg1.jpg');
+
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: all 0.3s ease;
+}
+/* all hover on galary images */
+#card-img1:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to left ,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('/images/breeds/1.jpg');
+    border-radius: 5px;
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+
+#card-img2:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to left ,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('/images/breeds/2.jpg');
+    border-radius: 5px;
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+#card-img3:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to left ,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('/images/breeds/3.jpg');
+    border-radius: 5px;
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+#card-img4:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to left ,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('/images/breeds/4.jpg');
+    border-radius: 5px;
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+
+#card-img5:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to left ,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('/images/breeds/5.jpg');
+    border-radius: 5px;
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+#card-img6:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to left ,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('/images/breeds/6.jpg');
+    border-radius: 5px;
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+#card-img1 img:hover,#card-img2 img:hover,#card-img3 img:hover,
+#card-img4 img:hover,#card-img5 img:hover,#card-img6 img:hover{
+    opacity: 0;
+    transition: ease 0.3s;
+}
+
+
+#galary .btn{
+    background-image: linear-gradient(#EB3349 0%, #F45C43  51%, #EB3349  100%);
+    border: none;
+    color: #fff;
+    padding: 12px 100px;
+    border-radius: 23px;
+    
+    text-transform: uppercase;
+    
+}
+
+/* pricing */
+#pricing{ 
+    margin:50px 60px ;
+    background: linear-gradient(to left ,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('/images/pricingBg1.jpg');
+    border-radius: 5px;
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.card-header{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+.card{
+    height: 350px;
+}
+.card-body img{
+    margin-bottom: 5px;
+}
+/* .card-body{
+    padding: 5px auto;
+} */
+.card p{
+    font-size: 16px;
+}
+.left-pricing-col{
+    margin-left: 100px;
+    height: 500px   ;
+}
+#pricing-heading{
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+#pricing p{
+    text-align: center;
+    /* color: #fff; */
+}
+.card{
+    text-align: center;
+}   
+.card-body img{
+    padding-bottom: 5px;
+    position: relative;
+}
+
+/* call to action */
+
+#cta{
+ /* background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% ); */
+ background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );   
+ padding: 5% 10%; 
+    text-align:center;
+    font-family: ubuntu;
+
+}
+#cta h3{
+    font-size: 4.2rem;
+    color: #fff;
+    font-family: "ubuntu";
+    font-weight: bolder;
+    /* line-height: 4; */
+    text-shadow: 1px 1px 1px #333;
+}
+
+
+
+/* signup */
+#signup{
+    padding: 5% 15%; 
+    background: linear-gradient(to left ,rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('/images/signupBg.jpg');
+
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 0.8; */
+    /* position: sticky; */
+    
+}
+
+#signup h2{
+    font-size: 2.7rem;
+    font-family: ubuntu;
+    color: #fff;
+}
+#signup p{
+    color: #fff;
+    font-size: 1.0rem;
+    font-family: "Helvetica"
+}
+.signup-btn{
+    padding: 10px 50px;
+    /* border: 1px solid #000; */
+    /* border-radius: 23px; */
+    background: none;
+    outline: none;
+}
+input[type="text"],input[type="email"]{
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    
+    border:none;
+    outline: olive;
+}
+input[type="submit"]{
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px 223px;
+    font-size: 1.5rem;
+    font-family: helvetica;
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+
+
+}
+/* .dark-bg-on-form:hover{
+    cursor: pointer;
+    color: #000;
+} */
+.sign-btn-bg{
+    border-radius: 23px;
+}
+
+/* footer */
+#footer{
+    padding:2% 10% 1% 10%;
+    text-align: center;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+}
+#footer-navbar{
+    padding: 0 0 0.5rem;
+}
+#footer a:hover{
+    color: red;
+}
+#footer .navbar ul{
+    margin: 0 auto;
+    /* padding-bottom: -20px; */
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
+
+
+
